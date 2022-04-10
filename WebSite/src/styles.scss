@@ -1,0 +1,37 @@
+// Style Scss
+@import "./assets/main/modal";
+@import "./assets/main/404";
+@import "./assets/main/preview";
+@import "./assets/main/circle";
+@import "./assets/main/styleswitcher";
+@import "./assets/main/slick";
+@import "./assets/main/style";
+
+// skin
+@import "./assets/main/skins/yellow";
+@import "./assets/main/skins/blue";
+@import "./assets/main/skins/blueviolet";
+@import "./assets/main/skins/goldenrod";
+@import "./assets/main/skins/green";
+@import "./assets/main/skins/magenta";
+@import "./assets/main/skins/orange";
+@import "./assets/main/skins/purple";
+@import "./assets/main/skins/red";
+@import "./assets/main/skins/yellowgreen";
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
